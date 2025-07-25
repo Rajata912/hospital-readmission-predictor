@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    margin-top: 25px;
+    padding: 12px;
+    background: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #1f6391;
+}
+
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-left: 5px solid #2980b9;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+}
+
+/* Initially hide result if user is filling the form */
+form:focus-within ~ .result {
+    display: none;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+}
