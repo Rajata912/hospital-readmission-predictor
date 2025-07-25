@@ -11,6 +11,6 @@ This Flask-based web app predicts hospital readmission risk based on patient dat
 [Watch here](https://youtu.be/HzPlaYMbdSU)
 
 ### 🖼️ Presentation
-[Google Slides Link](https://docs.google.com/presentation/d/1LpW_1c-CQVQJyZa9nfD59RCs-f_o1YUw/edit?usp=drive_link&ouid=114653058740640098554&rtpof=true&sd=true)
+[Google Slides Link](https://docs.google.com/presentation/d/13RTml0vOrubylgyrOeaPWU95kH8c9CWL/edit?usp=sharing&ouid=105565830480210041852&rtpof=true&sd=true)
 
 ---
